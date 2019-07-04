@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\UI">
+      <UniqueIdentifier>{6072be7c-7494-4ab2-a7f2-77f699d9ebb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Base">
+      <UniqueIdentifier>{85ce6234-aa1b-4163-81e7-9535e607bd5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\UI">
+      <UniqueIdentifier>{03aca253-2111-4323-8a49-298cc9fc7fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Base">
+      <UniqueIdentifier>{193a52df-24db-47b7-a91c-59a8d34d77d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Graphic">
+      <UniqueIdentifier>{71094f8d-1e08-49c8-b93b-754338da31df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphic">
+      <UniqueIdentifier>{fe0046f4-54d1-4aff-aa37-a3cc25897c98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UICheck.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGroupBox.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIProgressBar.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UISlider.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextBox.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Fichiers d%27en-tête\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Fichiers d%27en-tête\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Fichiers d%27en-tête\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyReader.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Fichiers d%27en-tête\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Fichiers d%27en-tête\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Fichiers d%27en-tête\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFML.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Fichiers sources\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Fichiers sources\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UICheck.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGroupBox.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIProgressBar.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UISlider.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextBox.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Fichiers sources\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyReader.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Fichiers sources\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Fichiers sources\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Fichiers sources\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

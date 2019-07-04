@@ -1,0 +1,5 @@
+﻿  GameManager.cpp
+c:\users\mandoc\desktop\sfml - pokercaraibe\sfml\hand.h(11): warning C4005: 'FLUSH': macro redefinition
+  c:\users\mandoc\desktop\sfml - pokercaraibe\sfml\card.h(17): note: see previous definition of 'FLUSH'
+  SFML.vcxproj -> C:\Users\Mandoc\Desktop\SFML - PokerCaraibe\Debug\SFML.exe
+  SFML.vcxproj -> C:\Users\Mandoc\Desktop\SFML - PokerCaraibe\Debug\SFML.pdb (Partial PDB)
